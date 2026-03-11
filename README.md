@@ -85,7 +85,7 @@ Every test suite validates:
 ### Prerequisites
 
 - Python 3.11+
-- Node.js 20+ (solo para correr la colección Postman con Newman)
+- Node.js 20+ (only to run the Postman collection with Newman)
 
 ### Installation
 
@@ -94,7 +94,7 @@ git clone https://github.com/bmontes1067/api-testing-postman-python.git
 cd api-testing-postman-python
 ```
 
-**Crear y activar un entorno virtual** (recomendado, especialmente en Mac con Homebrew):
+**Create and activate a virtual environment** (recommended, especially on Mac with Homebrew):
 
 ```bash
 python3 -m venv venv
@@ -102,19 +102,19 @@ source venv/bin/activate    # Mac / Linux
 # venv\Scripts\activate     # Windows
 ```
 
-Verás `(venv)` al inicio del prompt — indica que está activo.
+You will see `(venv)` at the beginning of the prompt — this indicates that it is active.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Para desactivar el entorno virtual cuando termines:
+To deactivate the virtual environment when you are finished:
 
 ```bash
 deactivate
 ```
 
-> La próxima vez que abras una terminal, recuerda activar el entorno antes de ejecutar tests:
+> The next time you open a terminal, remember to activate the environment before running tests:
 > ```bash
 > source venv/bin/activate
 > ```
